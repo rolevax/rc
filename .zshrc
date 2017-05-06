@@ -1,4 +1,4 @@
-# ==== gfp
+# zshrc by rolevax
 
 # History
 HISTFILE=~/.zsh_history
