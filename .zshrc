@@ -45,3 +45,6 @@ export PATH=$PATH:$HOME/.gem/ruby/2.2.0/bin
 export GOPATH=$HOME/test/go
 export PATH=$PATH:$GOPATH/bin
 
+# The Fuck
+eval $(thefuck --alias)
+
