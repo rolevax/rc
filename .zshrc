@@ -21,7 +21,7 @@ precmd() {
 	vcs_info
 }
 setopt prompt_subst
-PROMPT=[\ %U%~%u\ ]'${vcs_info_msg_0_}'$'\n'zsh%(?..-[%?])\>\ 
+PROMPT=[\ %U%~%u\ ]'${vcs_info_msg_0_}'$'\n'%n@%m%(?..-[%?])%#\ 
 RPROMPT=%F{green}%*%f
 
 # Alias
